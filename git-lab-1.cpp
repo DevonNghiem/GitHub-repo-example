@@ -10,7 +10,7 @@ int main()
     int ID;
 
     cout << "Enter your name: ";
-    cin >> name;
+    getline(cin, name);
 
     cout << "Enter your age: ";
     cin >> age;
