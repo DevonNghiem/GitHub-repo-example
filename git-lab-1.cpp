@@ -1,20 +1,26 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main()
 {
     // This program prompts the user for their name and age, then displays a greeting message.
-    std::string name;
+    string name;
     int age;
+    int ID;
 
-    std::cout << "Enter your name: ";
-    std::cin >> name;
+    cout << "Enter your name: ";
+    cin >> name;
 
-    std::cout << "Enter your age: ";
-    std::cin >> age;
+    cout << "Enter your age: ";
+    cin >> age;
 
-    std::cout << "Hello " << name << "!" << std::endl;
-    std::cout << "You are " << age << " years old." << std::endl;
+    cout << "Enter your ID (4 digits): ";
+    cin >> ID;
+
+    cout << "Hello " << name << "!" << endl;
+    cout << "You are " << age << " years old." << endl;
+    cout << "Your ID is: " << ID << endl;
 
     return 0;
 }
